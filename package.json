@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "npm install --legacy-peer-deps && next build",
+    "preinstall": "npm install --legacy-peer-deps",
     "start": "next start",
     "lint": "next lint"
   },
