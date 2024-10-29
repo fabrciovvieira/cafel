@@ -54,7 +54,6 @@ const FeedBack = () => {
   const handleDragEnd = (event: unknown, info: { offset: { x: number; }; }) => {
     // Verifica a direção do arrasto
     if (info.offset.x < -100) {
-      // Arrastou para a esquerda
       nextMenu();
     } else if (info.offset.x > 100) {
       // Arrastou para a direita
