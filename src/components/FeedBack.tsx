@@ -51,7 +51,7 @@ const menus = [
 const FeedBack = () => {
   const [currentMenu, setCurrentMenu] = useState(0);
 
-  const handleDragEnd = (event: any, info: { offset: { x: number; }; }) => {
+  const handleDragEnd = (event: unknown, info: { offset: { x: number; }; }) => {
     // Verifica a direção do arrasto
     if (info.offset.x < -100) {
       // Arrastou para a esquerda
